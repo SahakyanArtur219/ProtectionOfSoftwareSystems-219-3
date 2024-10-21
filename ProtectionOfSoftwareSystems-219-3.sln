@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GreatestCommonDivisor", "Gr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeastCommonMultiple", "LeastCommonMultiple\LeastCommonMultiple.vcxproj", "{4B0FA357-DB05-4826-BEAF-9ADCAEF0A7FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleSubstitutionAlgorithm", "SimpleSubstitutionAlgorithm\SimpleSubstitutionAlgorithm.vcxproj", "{93BC9DB1-77AC-420D-B74F-94A57ACECA07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{4B0FA357-DB05-4826-BEAF-9ADCAEF0A7FB}.Release|x64.Build.0 = Release|x64
 		{4B0FA357-DB05-4826-BEAF-9ADCAEF0A7FB}.Release|x86.ActiveCfg = Release|Win32
 		{4B0FA357-DB05-4826-BEAF-9ADCAEF0A7FB}.Release|x86.Build.0 = Release|Win32
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Debug|x64.ActiveCfg = Debug|x64
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Debug|x64.Build.0 = Debug|x64
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Debug|x86.ActiveCfg = Debug|Win32
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Debug|x86.Build.0 = Debug|Win32
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Release|x64.ActiveCfg = Release|x64
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Release|x64.Build.0 = Release|x64
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Release|x86.ActiveCfg = Release|Win32
+		{93BC9DB1-77AC-420D-B74F-94A57ACECA07}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
