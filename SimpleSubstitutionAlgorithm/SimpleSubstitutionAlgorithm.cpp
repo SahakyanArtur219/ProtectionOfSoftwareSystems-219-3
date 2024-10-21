@@ -5,11 +5,11 @@ const char* alphabet = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
 
 void encrypt(char text[], const char alphabet[]) {
     for (int i = 0; i < strlen(text); ++i) {
-        if (text[i] >= 'A' && text[i] <= 'Z') {
-            text[i] = alphabet[text[i] - 'A' + 26];
+        if (text[i] >= 'a' && text[i] <= 'z') {
+            text[i] = alphabet[text[i] - 'a' + 26];
         }
-        else if (text[i] >= 'a' && text[i] <= 'z') {
-            text[i] = alphabet[text[i] - 'a'];
+        else if (text[i] >= 'A' && text[i] <= 'Z') {
+            text[i] = alphabet[text[i] - 'A'];
         }
     }
 }
