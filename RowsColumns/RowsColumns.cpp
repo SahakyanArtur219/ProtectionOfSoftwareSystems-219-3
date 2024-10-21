@@ -17,10 +17,11 @@ class TransposeCoder : public Crypto{
 
 private:
     char** fillSquareMatrix(const string& text, int& n) {
-        int len = text.size();
-        n = ceil(sqrt(len));
 
+        int length = text.size();
+        n = ceil(sqrt(length));
         char** matrix = new char* [n];
+
         for (int i = 0; i < n; ++i) {
             matrix[i] = new char[n];
             for (int j = 0; j < n; ++j) {
@@ -31,7 +32,7 @@ private:
         int k = 0;
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < n; ++j) {
-                if (k < len) {
+                if (k < length) {
                     matrix[i][j] = text[k++];
                 }
             }
@@ -40,10 +41,11 @@ private:
     }
 
     char** fillSquareMatrixDecryption(const string& text, int& n) {
-        int len = text.size();
-        n = ceil(sqrt(len));
 
+        int length = text.size();
+        n = ceil(sqrt(length));
         char** matrix = new char* [n];
+
         for (int i = 0; i < n; ++i) {
             matrix[i] = new char[n];
             for (int j = 0; j < n; ++j) {
@@ -54,7 +56,7 @@ private:
         int k = 0;
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < n; ++j) {
-                if (k < len) {
+                if (k < length) {
                     matrix[j][i] = text[k++];
                 }
             }
@@ -87,7 +89,6 @@ public:
     string encrypt(const string& text) override {
         int n;
         char** matrix = fillSquareMatrix(text, n);
-
         char** transposed = transposeMatrix(matrix, n);
 
         string encryptedText;
@@ -99,7 +100,6 @@ public:
 
         cleanMatrix(matrix, n);
         cleanMatrix(transposed, n);
-
         return encryptedText;
     }
 
@@ -117,10 +117,8 @@ public:
         }
 
         cleanMatrix(matrix, n);
-
         return decryptedText;
     }
-
     ~TransposeCoder() override {}
 };
 
