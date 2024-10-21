@@ -7,7 +7,7 @@ void GCD(int a, int b){
         cout << "Please input correct numbers\n";
         return;
     }
-
+    
     if (b > a) {
         a = a + b;
         b = a - b;
