@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{04af4158-ed80-4e3a-9d67-cbad723df828}</ProjectGuid>
-    <RootNamespace>RowsColumns</RootNamespace>
+    <ProjectGuid>{73b7d4d0-fd33-42f1-8aca-4d86bab7a1b7}</ProjectGuid>
+    <RootNamespace>MixEncryptionAndDecryption</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\sahak\source\repos\ProtectionOfSoftwareSystems-219-3\RowsColumns;C:\Users\sahak\source\repos\ProtectionOfSoftwareSystems-219-3\Ceasar;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,10 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="RowsColumns.cpp" />
+    <ClCompile Include="MixEncryptionAndDecryption.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RowsColumns.h" />
+    <ClInclude Include="MixEncryptionAndDecryption.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
