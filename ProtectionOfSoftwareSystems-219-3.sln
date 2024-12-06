@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MissedNumber", "MissedNumbe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MixEncryptionAndDecryption", "MixEncryptionAndDecryption\MixEncryptionAndDecryption.vcxproj", "{73B7D4D0-FD33-42F1-8ACA-4D86BAB7A1B7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LZ77", "LZ77\LZ77.vcxproj", "{3445772B-E3FF-4826-8F6E-A54CDAB6E255}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{73B7D4D0-FD33-42F1-8ACA-4D86BAB7A1B7}.Release|x64.Build.0 = Release|x64
 		{73B7D4D0-FD33-42F1-8ACA-4D86BAB7A1B7}.Release|x86.ActiveCfg = Release|Win32
 		{73B7D4D0-FD33-42F1-8ACA-4D86BAB7A1B7}.Release|x86.Build.0 = Release|Win32
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Debug|x64.ActiveCfg = Debug|x64
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Debug|x64.Build.0 = Debug|x64
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Debug|x86.ActiveCfg = Debug|Win32
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Debug|x86.Build.0 = Debug|Win32
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Release|x64.ActiveCfg = Release|x64
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Release|x64.Build.0 = Release|x64
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Release|x86.ActiveCfg = Release|Win32
+		{3445772B-E3FF-4826-8F6E-A54CDAB6E255}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
